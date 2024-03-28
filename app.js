@@ -1,3 +1,4 @@
+#! usr/bin/env
 import * as readlinesync from "readline-sync";
 function getUserInputNum(inp) {
     const num = readlinesync.question(inp);
